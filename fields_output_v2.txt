@@ -1,0 +1,16 @@
+ID | Code | Display Name | Min | Max
+---|------|--------------|-----|----
+1 | skus | Number of SKUs | 1 | 1000
+2 | views_per_sku | Views per SKU | 1 | 50
+3 | qc_headcount | QC headcount | 1 | 1000
+4 | shifts_per_day | Shifts per day | 1 | 4
+5 | units_per_inspector_per_day | Units inspected per inspector per day | 1 | 100000
+6 | operating_days_per_year | Operating days per year | 1 | 366
+7 | contract_term_years | Contract term | 1 | 5
+8 | monthly_qc_cost | Monthly fully loaded QC cost | 0 | 20000
+9 | modeling_fee_per_view | Modeling fee per view | 0 | 50000
+10 | annual_license_per_sku | Annual SaaD license per SKU | 0 | 100000
+11 | discount_rate | Discount rate | 0 | 1
+12 | throughput_cons | Throughput multiplier (Conservative) | 1 | 20
+13 | throughput_base | Throughput multiplier (Base) | 1 | 20
+14 | throughput_aggr | Throughput multiplier (Aggressive) | 1 | 20
